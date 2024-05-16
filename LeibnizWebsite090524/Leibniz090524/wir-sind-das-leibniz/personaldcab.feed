@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Schulleitung</title>
+		<description><![CDATA[]]></description>
+		<link>https://www.leibnizgymnasium.de/wir-sind-das-leibniz/personal.html</link>
+		<lastBuildDate>Thu, 09 May 2024 21:15:20 +0200</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="https://www.leibnizgymnasium.de/wir-sind-das-leibniz/personal.feed?type=rss"/>
+		<language>de-de</language>
+		<managingEditor>leibniz-gymnasium.bad-schwartau@schule.landsh.de (Leibniz-Gymnasium Bad Schwartau)</managingEditor>
+		<item>
+			<title>Schulleiter</title>
+			<link>https://www.leibnizgymnasium.de/wir-sind-das-leibniz/personal/759-schulleiter.html</link>
+			<guid isPermaLink="true">https://www.leibnizgymnasium.de/wir-sind-das-leibniz/personal/759-schulleiter.html</guid>
+			<description><![CDATA[<p><img src="https://www.leibnizgymnasium.de//medien/bilder/personal/Ml1.jpg" alt="OStD Dr. Johannes Matlok"></p><p>OStD Dr. Johannes Matlok</p>]]></description>
+			<author>administrator@leibnizgymnasium.de (Super User)</author>
+			<category>Schulleitung</category>
+			<pubDate>Tue, 19 Jan 2021 18:53:59 +0100</pubDate>
+		</item>
+		<item>
+			<title>Stellvertretender Schulleiter</title>
+			<link>https://www.leibnizgymnasium.de/wir-sind-das-leibniz/personal/760-stellvertretender-schulleiter.html</link>
+			<guid isPermaLink="true">https://www.leibnizgymnasium.de/wir-sind-das-leibniz/personal/760-stellvertretender-schulleiter.html</guid>
+			<description><![CDATA[<p><img src="https://www.leibnizgymnasium.de//medien/statisch/Personal/bg.jpg" alt="OStR Oliver Brüning"></p><p>OStR Oliver Brüning</p>]]></description>
+			<author>administrator@leibnizgymnasium.de (Super User)</author>
+			<category>Schulleitung</category>
+			<pubDate>Tue, 19 Jan 2021 18:55:03 +0100</pubDate>
+		</item>
+		<item>
+			<title>Orientierungsstufenleitung</title>
+			<link>https://www.leibnizgymnasium.de/wir-sind-das-leibniz/personal/98-erweiterte-schulleitung/763-orientierungsstufenleitung.html</link>
+			<guid isPermaLink="true">https://www.leibnizgymnasium.de/wir-sind-das-leibniz/personal/98-erweiterte-schulleitung/763-orientierungsstufenleitung.html</guid>
+			<description><![CDATA[<p><img src="https://www.leibnizgymnasium.de//medien/bilder/personal/Dt.gif" alt="StD‘ Birte Dietrich" width="200" height="129" loading="lazy"></p><p>StD‘ Birte Dietrich</p>]]></description>
+			<author>administrator@leibnizgymnasium.de (Super User)</author>
+			<category>Erweiterte Schulleitung</category>
+			<pubDate>Tue, 19 Jan 2021 19:00:52 +0100</pubDate>
+		</item>
+		<item>
+			<title>Mittelstufenleitung</title>
+			<link>https://www.leibnizgymnasium.de/wir-sind-das-leibniz/personal/98-erweiterte-schulleitung/762-mittelstufenleitung.html</link>
+			<guid isPermaLink="true">https://www.leibnizgymnasium.de/wir-sind-das-leibniz/personal/98-erweiterte-schulleitung/762-mittelstufenleitung.html</guid>
+			<description><![CDATA[<p><img src="https://www.leibnizgymnasium.de//medien/bilder/personal/Karin_Larink.jpg" alt="StD‘ Karin Larink"></p><p>StD‘ Karin Larink</p>]]></description>
+			<author>administrator@leibnizgymnasium.de (Super User)</author>
+			<category>Erweiterte Schulleitung</category>
+			<pubDate>Tue, 19 Jan 2021 18:59:30 +0100</pubDate>
+		</item>
+		<item>
+			<title>Oberstufenleitung</title>
+			<link>https://www.leibnizgymnasium.de/wir-sind-das-leibniz/personal/98-erweiterte-schulleitung/761-oberstufenleitung.html</link>
+			<guid isPermaLink="true">https://www.leibnizgymnasium.de/wir-sind-das-leibniz/personal/98-erweiterte-schulleitung/761-oberstufenleitung.html</guid>
+			<description><![CDATA[<p><img src="https://www.leibnizgymnasium.de//medien/bilder/personal/Li.jpg" alt="OStR‘ Catharina Lindow"></p><p>StD‘ Catharina Lindow</p>]]></description>
+			<author>administrator@leibnizgymnasium.de (Super User)</author>
+			<category>Erweiterte Schulleitung</category>
+			<pubDate>Tue, 19 Jan 2021 18:56:47 +0100</pubDate>
+		</item>
+	</channel>
+</rss>

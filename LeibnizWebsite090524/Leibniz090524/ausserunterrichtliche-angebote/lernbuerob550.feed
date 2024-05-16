@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de-de">
+	<title type="text">Lernbüro</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de"/>
+	<id>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/lernbuero.feed</id>
+	<updated>2024-05-09T21:15:16+02:00</updated>
+	<author>
+		<name>Leibniz-Gymnasium Bad Schwartau</name>
+		<email>leibniz-gymnasium.bad-schwartau@schule.landsh.de</email>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/lernbuero.feed?type=atom"/>
+	<entry>
+		<title>Lernbüro</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/lernbuero/29-lernbuero.html"/>
+		<published>2012-09-26T11:46:58+02:00</published>
+		<updated>2012-09-26T11:46:58+02:00</updated>
+		<id>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/lernbuero/29-lernbuero.html</id>
+		<author>
+			<name>Knut Bienengräber</name>
+			<email>kbienengraeber@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Lernbuero/lernbuero-klein.png&quot; alt=&quot;lernbuero-klein&quot; width=&quot;266&quot; height=&quot;157&quot; style=&quot;margin-right: 30px; float: left;&quot; /&gt;Das Lernbüro erweitert das Angebot des Leibniz-Gymnasiums durch eine Vielzahl von Möglichkeiten. Es stehen Computer und elektronische Wörterbücher zur Verfügung&lt;/p&gt;
+&lt;p&gt;Die Schülerinnen und Schüler haben hier auch die Möglichkeit zur&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;eigenständigen Internetrecherche&lt;/li&gt;
+&lt;li&gt;Erstellung von elektronischen Dokumenten als Unterrichtsvorbereitung&lt;/li&gt;
+&lt;li&gt;Anfertigung von Kopien&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Erstellung von Hausaufgaben&lt;/li&gt;
+&lt;li&gt;Programmierübungen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Lernbuero/lernbuero-klein.png&quot; alt=&quot;lernbuero-klein&quot; width=&quot;266&quot; height=&quot;157&quot; style=&quot;margin-right: 30px; float: left;&quot; /&gt;Das Lernbüro erweitert das Angebot des Leibniz-Gymnasiums durch eine Vielzahl von Möglichkeiten. Es stehen Computer und elektronische Wörterbücher zur Verfügung&lt;/p&gt;
+&lt;p&gt;Die Schülerinnen und Schüler haben hier auch die Möglichkeit zur&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;eigenständigen Internetrecherche&lt;/li&gt;
+&lt;li&gt;Erstellung von elektronischen Dokumenten als Unterrichtsvorbereitung&lt;/li&gt;
+&lt;li&gt;Anfertigung von Kopien&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Erstellung von Hausaufgaben&lt;/li&gt;
+&lt;li&gt;Programmierübungen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</content>
+		<category term="Lernbüro" />
+	</entry>
+</feed>

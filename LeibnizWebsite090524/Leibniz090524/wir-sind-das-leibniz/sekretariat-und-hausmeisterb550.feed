@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de-de">
+	<title type="text">Gute Geister</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de"/>
+	<id>https://www.leibnizgymnasium.de/wir-sind-das-leibniz/sekretariat-und-hausmeister.feed</id>
+	<updated>2024-05-09T21:15:22+02:00</updated>
+	<author>
+		<name>Leibniz-Gymnasium Bad Schwartau</name>
+		<email>leibniz-gymnasium.bad-schwartau@schule.landsh.de</email>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="https://www.leibnizgymnasium.de/wir-sind-das-leibniz/sekretariat-und-hausmeister.feed?type=atom"/>
+	<entry>
+		<title>Herr Zimmermann</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/wir-sind-das-leibniz/sekretariat-und-hausmeister/1093-herr-zimmermann.html"/>
+		<published>2023-11-06T18:59:33+01:00</published>
+		<updated>2023-11-06T18:59:33+01:00</updated>
+		<id>https://www.leibnizgymnasium.de/wir-sind-das-leibniz/sekretariat-und-hausmeister/1093-herr-zimmermann.html</id>
+		<author>
+			<name>Knut Bienengräber</name>
+			<email>kbienengraeber@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de//medien/bilder/personal/Zimmermann-350.gif&quot; alt=&quot;Herr Zimmermann&quot; width=&quot;350&quot; height=&quot;233&quot; loading=&quot;lazy&quot;&gt;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de//medien/bilder/personal/Zimmermann-350.gif&quot; alt=&quot;Herr Zimmermann&quot; width=&quot;350&quot; height=&quot;233&quot; loading=&quot;lazy&quot;&gt;&lt;/p&gt;</content>
+		<category term="Serviceteam" />
+	</entry>
+	<entry>
+		<title>Herr Giese</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/wir-sind-das-leibniz/sekretariat-und-hausmeister/769-herr-frost.html"/>
+		<published>2021-01-20T08:00:01+01:00</published>
+		<updated>2021-01-20T08:00:01+01:00</updated>
+		<id>https://www.leibnizgymnasium.de/wir-sind-das-leibniz/sekretariat-und-hausmeister/769-herr-frost.html</id>
+		<author>
+			<name>Super User</name>
+			<email>administrator@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de//medien/bilder/personal/Giese-350.gif&quot; alt=&quot;Herr Giese&quot; width=&quot;350&quot; height=&quot;233&quot; loading=&quot;lazy&quot;&gt;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de//medien/bilder/personal/Giese-350.gif&quot; alt=&quot;Herr Giese&quot; width=&quot;350&quot; height=&quot;233&quot; loading=&quot;lazy&quot;&gt;&lt;/p&gt;</content>
+		<category term="Serviceteam" />
+	</entry>
+	<entry>
+		<title>Frau Mahler</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/wir-sind-das-leibniz/sekretariat-und-hausmeister/766-frau-mahler.html"/>
+		<published>2021-01-20T07:54:17+01:00</published>
+		<updated>2021-01-20T07:54:17+01:00</updated>
+		<id>https://www.leibnizgymnasium.de/wir-sind-das-leibniz/sekretariat-und-hausmeister/766-frau-mahler.html</id>
+		<author>
+			<name>Super User</name>
+			<email>administrator@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de//medien/bilder/personal/Mahler.jpg&quot; alt=&quot;Frau Mahler&quot;&gt;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de//medien/bilder/personal/Mahler.jpg&quot; alt=&quot;Frau Mahler&quot;&gt;&lt;/p&gt;</content>
+		<category term="Serviceteam" />
+	</entry>
+	<entry>
+		<title>Frau Flecks</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/wir-sind-das-leibniz/sekretariat-und-hausmeister/767-frau-flecks.html"/>
+		<published>2021-01-20T07:54:17+01:00</published>
+		<updated>2021-01-20T07:54:17+01:00</updated>
+		<id>https://www.leibnizgymnasium.de/wir-sind-das-leibniz/sekretariat-und-hausmeister/767-frau-flecks.html</id>
+		<author>
+			<name>Super User</name>
+			<email>administrator@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de//medien/bilder/personal/Flecks.jpg&quot; alt=&quot;Frau Flecks&quot;&gt;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de//medien/bilder/personal/Flecks.jpg&quot; alt=&quot;Frau Flecks&quot;&gt;&lt;/p&gt;</content>
+		<category term="Serviceteam" />
+	</entry>
+</feed>

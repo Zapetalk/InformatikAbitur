@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Lernbüro</title>
+		<description><![CDATA[]]></description>
+		<link>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/lernbuero.html</link>
+		<lastBuildDate>Thu, 09 May 2024 21:15:15 +0200</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/lernbuero.feed?type=rss"/>
+		<language>de-de</language>
+		<managingEditor>leibniz-gymnasium.bad-schwartau@schule.landsh.de (Leibniz-Gymnasium Bad Schwartau)</managingEditor>
+		<item>
+			<title>Lernbüro</title>
+			<link>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/lernbuero/29-lernbuero.html</link>
+			<guid isPermaLink="true">https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/lernbuero/29-lernbuero.html</guid>
+			<description><![CDATA[<p><img src="https://www.leibnizgymnasium.de/medien/statisch/Lernbuero/lernbuero-klein.png" alt="lernbuero-klein" width="266" height="157" style="margin-right: 30px; float: left;" />Das Lernbüro erweitert das Angebot des Leibniz-Gymnasiums durch eine Vielzahl von Möglichkeiten. Es stehen Computer und elektronische Wörterbücher zur Verfügung</p>
+<p>Die Schülerinnen und Schüler haben hier auch die Möglichkeit zur&nbsp;</p>
+<ul>
+<li>eigenständigen Internetrecherche</li>
+<li>Erstellung von elektronischen Dokumenten als Unterrichtsvorbereitung</li>
+<li>Anfertigung von Kopien&nbsp;</li>
+<li>Erstellung von Hausaufgaben</li>
+<li>Programmierübungen</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></description>
+			<author>kbienengraeber@leibnizgymnasium.de (Knut Bienengräber)</author>
+			<category>Lernbüro</category>
+			<pubDate>Wed, 26 Sep 2012 11:46:58 +0200</pubDate>
+		</item>
+	</channel>
+</rss>

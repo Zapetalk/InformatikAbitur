@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de-de">
+	<title type="text">Arbeitsgemeinschaften</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de"/>
+	<id>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften.feed</id>
+	<updated>2024-05-09T21:14:52+02:00</updated>
+	<author>
+		<name>Leibniz-Gymnasium Bad Schwartau</name>
+		<email>leibniz-gymnasium.bad-schwartau@schule.landsh.de</email>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften.feed?type=atom"/>
+	<entry>
+		<title>Admins</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/57-admins.html"/>
+		<published>2012-10-19T08:48:55+02:00</published>
+		<updated>2012-10-19T08:48:55+02:00</updated>
+		<id>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/57-admins.html</id>
+		<author>
+			<name>Antje Hesse</name>
+			<email>a.hesse@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/admin/leibnetz_logo.png&quot; alt=&quot;leibnetz logo&quot; width=&quot;116&quot; height=&quot;101&quot; style=&quot;margin-left: 15px; margin-bottom: 15px; float: right;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 7 - 12&lt;/li&gt;
+&lt;li&gt;Zeit: bei Bedarf&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Oliver Brüning (kommissarisch)&lt;/li&gt;
+&lt;/ul&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/admin/leibnetz_logo.png&quot; alt=&quot;leibnetz logo&quot; width=&quot;116&quot; height=&quot;101&quot; style=&quot;margin-left: 15px; margin-bottom: 15px; float: right;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 7 - 12&lt;/li&gt;
+&lt;li&gt;Zeit: bei Bedarf&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Oliver Brüning (kommissarisch)&lt;/li&gt;
+&lt;/ul&gt;</content>
+		<category term="Arbeitsgemeinschaften" />
+	</entry>
+	<entry>
+		<title>AG Mikrocontroller-Programmierung</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/840-arduino-ag.html"/>
+		<published>2021-09-03T10:32:09+02:00</published>
+		<updated>2021-09-03T10:32:09+02:00</updated>
+		<id>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/840-arduino-ag.html</id>
+		<author>
+			<name>Malena Greten </name>
+			<email>m.greten@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;h4&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/arduino/arguino-logo.jpg&quot; alt=&quot;arguino logo&quot; style=&quot;margin-left: 15px; margin-bottom: 15px; float: right;&quot; /&gt;&lt;/h4&gt;
+&lt;p&gt;Wer Spaß an Technik oder am Programmieren hat oder einfach mal was Neues ausprobieren möchte, ist zur Arduino-AG herzlich eingeladen.&lt;/p&gt;
+&lt;p&gt;Arduino ist ein Mini-PC, den wir zusammen anhand verschiedener Projekte programmieren wollen.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufe 7 – 9&lt;/li&gt;
+&lt;li&gt;Zeit: noch ausstehend&lt;/li&gt;
+&lt;li&gt;Ort: Computerraum&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Oliver Brüning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;{gallery} statisch/Arbeitsgemeinschaften/arduino/galerie/{/gallery}&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</summary>
+		<content type="html">&lt;h4&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/arduino/arguino-logo.jpg&quot; alt=&quot;arguino logo&quot; style=&quot;margin-left: 15px; margin-bottom: 15px; float: right;&quot; /&gt;&lt;/h4&gt;
+&lt;p&gt;Wer Spaß an Technik oder am Programmieren hat oder einfach mal was Neues ausprobieren möchte, ist zur Arduino-AG herzlich eingeladen.&lt;/p&gt;
+&lt;p&gt;Arduino ist ein Mini-PC, den wir zusammen anhand verschiedener Projekte programmieren wollen.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufe 7 – 9&lt;/li&gt;
+&lt;li&gt;Zeit: noch ausstehend&lt;/li&gt;
+&lt;li&gt;Ort: Computerraum&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Oliver Brüning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;{gallery} statisch/Arbeitsgemeinschaften/arduino/galerie/{/gallery}&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</content>
+		<category term="Arbeitsgemeinschaften" />
+	</entry>
+	<entry>
+		<title>Business-English-AG</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/24-business-english-ag.html"/>
+		<published>2012-09-25T20:08:06+02:00</published>
+		<updated>2012-09-25T20:08:06+02:00</updated>
+		<id>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/24-business-english-ag.html</id>
+		<author>
+			<name>Knut Bienengräber</name>
+			<email>kbienengraeber@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/business-english/business_farbig_klein.jpg&quot; alt=&quot;business farbig klein&quot; width=&quot;243&quot; height=&quot;258&quot; style=&quot;margin-right: 30px; float: left;&quot; /&gt;Ziel der AG ist das Erlangen eines weltweit anerkannten Pearson-Zertifikats für Business-English. Das Zertifikat ist lebenslang gültig, bietet Vorteile für spätere Bewerbungen und wird oftmals von Universitäten anerkannt. Um die Teilnehmer optimal vorzubereiten werden gezielt unterschiedliche prüfungsvorbereitende Übungen durchgeführt. Die AG besteht aus kommunikativen Rollenspiele, Business-Wortschatzübungen und der Betrachtung von Geschäftssitten&amp;nbsp; ausgesuchter Staaten.&lt;/p&gt;
+&lt;p&gt;Begleitet wird die AG durch ein eigenes Kursbuch und interaktive Übungen.Die Gebühr (ca. 60 €) für das Pearson-Zertifikat wird nur bei tatsächlicher Teilnahme an der Abschlussprüfung erhoben. Bei einer Anwesenheit in mindestens 70% der AG-Stunden wird die Teilnahme mit einem Zertifikat&amp;nbsp;bestätigt.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler ab der Einführungsphase (Klasse 10)&lt;/li&gt;
+&lt;li&gt;Zeit: Montags, 14:00 - 14:45 Uhr&lt;/li&gt;
+&lt;li&gt;Ort: R13&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Knut Bienengräber&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</summary>
+		<content type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/business-english/business_farbig_klein.jpg&quot; alt=&quot;business farbig klein&quot; width=&quot;243&quot; height=&quot;258&quot; style=&quot;margin-right: 30px; float: left;&quot; /&gt;Ziel der AG ist das Erlangen eines weltweit anerkannten Pearson-Zertifikats für Business-English. Das Zertifikat ist lebenslang gültig, bietet Vorteile für spätere Bewerbungen und wird oftmals von Universitäten anerkannt. Um die Teilnehmer optimal vorzubereiten werden gezielt unterschiedliche prüfungsvorbereitende Übungen durchgeführt. Die AG besteht aus kommunikativen Rollenspiele, Business-Wortschatzübungen und der Betrachtung von Geschäftssitten&amp;nbsp; ausgesuchter Staaten.&lt;/p&gt;
+&lt;p&gt;Begleitet wird die AG durch ein eigenes Kursbuch und interaktive Übungen.Die Gebühr (ca. 60 €) für das Pearson-Zertifikat wird nur bei tatsächlicher Teilnahme an der Abschlussprüfung erhoben. Bei einer Anwesenheit in mindestens 70% der AG-Stunden wird die Teilnahme mit einem Zertifikat&amp;nbsp;bestätigt.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler ab der Einführungsphase (Klasse 10)&lt;/li&gt;
+&lt;li&gt;Zeit: Montags, 14:00 - 14:45 Uhr&lt;/li&gt;
+&lt;li&gt;Ort: R13&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Knut Bienengräber&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</content>
+		<category term="Arbeitsgemeinschaften" />
+	</entry>
+	<entry>
+		<title>Fußball-AG</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/976-fussball-ag.html"/>
+		<published>2022-10-23T15:23:43+02:00</published>
+		<updated>2022-10-23T15:23:43+02:00</updated>
+		<id>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/976-fussball-ag.html</id>
+		<author>
+			<name>Antje Hesse</name>
+			<email>a.hesse@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/fussball-ag/400-thumb.jpg&quot; alt=&quot;400 thumb&quot; style=&quot;margin-left: 15px; float: right;&quot; /&gt;Unsere Traditions-AG Fußball wird nun endlich wieder zum Leben erweckt.&lt;/p&gt;
+&lt;p&gt;Hierfür konnten wir mit Gero Maaß einen A-Lizenzinhaber, der jahrelang im Jugendbereich tätig war (u.a. VfB Lübeck A-Jugend), engagieren.&lt;/p&gt;
+&lt;p&gt;Ziel soll es sein, den Spaß am Fußball zu verstärken, so dass sich jede und jeder auf individuelle Weise in dieser Sportart weiterentwickeln kann.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 5 - 8&lt;/li&gt;
+&lt;li&gt;Zeit: Montags, 14:00 Uhr bis 15:30 Uhr (14-täglich)&lt;/li&gt;
+&lt;li&gt;Ort: Sportplatz&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Michael Rehbein und Gero Maaß&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/fussball-ag/400-thumb.jpg&quot; alt=&quot;400 thumb&quot; style=&quot;margin-left: 15px; float: right;&quot; /&gt;Unsere Traditions-AG Fußball wird nun endlich wieder zum Leben erweckt.&lt;/p&gt;
+&lt;p&gt;Hierfür konnten wir mit Gero Maaß einen A-Lizenzinhaber, der jahrelang im Jugendbereich tätig war (u.a. VfB Lübeck A-Jugend), engagieren.&lt;/p&gt;
+&lt;p&gt;Ziel soll es sein, den Spaß am Fußball zu verstärken, so dass sich jede und jeder auf individuelle Weise in dieser Sportart weiterentwickeln kann.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 5 - 8&lt;/li&gt;
+&lt;li&gt;Zeit: Montags, 14:00 Uhr bis 15:30 Uhr (14-täglich)&lt;/li&gt;
+&lt;li&gt;Ort: Sportplatz&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Michael Rehbein und Gero Maaß&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</content>
+		<category term="Arbeitsgemeinschaften" />
+	</entry>
+	<entry>
+		<title>Handball-AG</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/1099-handball-ag.html"/>
+		<published>2023-11-11T18:02:02+01:00</published>
+		<updated>2023-11-11T18:02:02+01:00</updated>
+		<id>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/1099-handball-ag.html</id>
+		<author>
+			<name>Knut Bienengräber</name>
+			<email>kbienengraeber@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;p&gt;Du hast Interesse an Handball und an ganz viel Spaß? Dann bist du bei uns genau richtig und wir heißen dich herzlich in der Halle des Leibniz-Gymnasiums willkommen! Wir freuen uns über jede oder jeden, der Lust hat, Handball zu spielen und sich zu bewegen! Der Spaß am Handball steht bei uns an erster&amp;nbsp;Stelle. Ihr braucht also keine Profis zu sein oder euch Sorgen zu machen, falls ihr keine Erfahrungen habt oder Vereinsspieler seid, denn in der AG werden Grundlagen geübt und vorhandene Fertigkeiten weiterentwickelt. Neben kleinen Spielen werden Übungen, Geschicklichkeit, Reaktion, Koordination und Ballbeherschung trainiert. Somit sollen also Fairplay, Spielfreude, Disziplin und Teamgeist&amp;nbsp;gefördet und&amp;nbsp;in den Schulaltag integriert werden. Schaut also gerne einfach mal vorbei!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 5 - 9&lt;/li&gt;
+&lt;li&gt;Zeit: voraussichtlich donnerstags 14:00 - 15:15 Uhr&lt;/li&gt;
+&lt;li&gt;Ort: große Sporthalle&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Johanna Tüx und Verena Potratz&lt;/li&gt;
+&lt;/ul&gt;</summary>
+		<content type="html">&lt;p&gt;Du hast Interesse an Handball und an ganz viel Spaß? Dann bist du bei uns genau richtig und wir heißen dich herzlich in der Halle des Leibniz-Gymnasiums willkommen! Wir freuen uns über jede oder jeden, der Lust hat, Handball zu spielen und sich zu bewegen! Der Spaß am Handball steht bei uns an erster&amp;nbsp;Stelle. Ihr braucht also keine Profis zu sein oder euch Sorgen zu machen, falls ihr keine Erfahrungen habt oder Vereinsspieler seid, denn in der AG werden Grundlagen geübt und vorhandene Fertigkeiten weiterentwickelt. Neben kleinen Spielen werden Übungen, Geschicklichkeit, Reaktion, Koordination und Ballbeherschung trainiert. Somit sollen also Fairplay, Spielfreude, Disziplin und Teamgeist&amp;nbsp;gefördet und&amp;nbsp;in den Schulaltag integriert werden. Schaut also gerne einfach mal vorbei!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 5 - 9&lt;/li&gt;
+&lt;li&gt;Zeit: voraussichtlich donnerstags 14:00 - 15:15 Uhr&lt;/li&gt;
+&lt;li&gt;Ort: große Sporthalle&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Johanna Tüx und Verena Potratz&lt;/li&gt;
+&lt;/ul&gt;</content>
+		<category term="Arbeitsgemeinschaften" />
+	</entry>
+	<entry>
+		<title>Imker-AG</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/589-imker-ag.html"/>
+		<published>2019-01-22T14:12:41+01:00</published>
+		<updated>2019-01-22T14:12:41+01:00</updated>
+		<id>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/589-imker-ag.html</id>
+		<author>
+			<name>Knut Bienengräber</name>
+			<email>kbienengraeber@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/imker-ag/250-biene.jpg&quot; alt=&quot;250 biene&quot; style=&quot;margin-bottom: 15px; margin-left: 15px; float: right;&quot; /&gt;&lt;em&gt;&lt;span style=&quot;color: #000000;&quot;&gt;„Wer einmal mit einem Imker zusammen einen Bienenstock geöffnet hat, von hunderten friedlicher Bienen umschwärmt worden ist und den aromatischen Duft des Bienenstocks eingeatmet hat, steht in der Gefahr, sein Herz an diese wundervollen Geschöpfe zu verlieren.“&amp;nbsp;&lt;/span&gt;&lt;/em&gt;Erhard Maria Klein&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: inherit; color: inherit; font-family: inherit; font-size: 1rem;&quot;&gt;Seit dem Schuljahr 2015/2016 besteht auch am Leibniz-Gymnasium die Möglichkeit, dieses so faszinierende Handwerk der Imkerei zu erlernen.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Was zunächst im Rahmen des vom Landesverband der Schleswig-Holsteinischen und Hamburger Imker e.V. geförderten Projekts „Sommerbienen“ seinen Anfang nahm, hat sich zwischenzeitlich zu einer eigenständigen Schulimkerei entwickelt.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Dabei steht uns unser Schulimker Herr Redöhl mit Rat und Tat zur Seite und begleitet uns fachkundig durch das Bienenjahr.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Während wir im Frühjahr und Sommer direkt an unseren Bienenvölkern arbeiten und unseren leckeren Leibniz-Honig ernten können, beschäftigen wir uns im Herbst und Winter mit der Verarbeitung der Bienenprodukte. So werden in der Vorweihnachtszeit zum Beispiel Bienenwachskerzen gegossen, die wir anlässlich unseres traditionellen Adventsbasars verkaufen.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Aber es müssen auch die Vorbereitungen für das kommende Jahr getroffen werden. Dazu gehören alle anfallenden Instandhaltungsarbeiten genauso wie das Bauen und Drahten von Rähmchen, das Einlöten von Mittelwänden und vieles mehr.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Das Aneignen theoretischen Fachwissens rund um die Imkerei kommt dabei natürlich nicht zu kurz.&lt;/p&gt;
+&lt;p&gt;Interessierte Jungimker-/innen sind jederzeit herzlich willkommen!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler aller Klassenstufen&lt;/li&gt;
+&lt;li&gt;Zeit: Freitags, ab 13:10 Uhr bzw. nach Vereinbarung&lt;/li&gt;
+&lt;li&gt;Treffpunkt: Pausenhalle (vor den Nawi-Räumen)&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Silvia Lehrer und Hans-Joachim Redöhl (Schulimker)
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/imker-ag/250-biene.jpg&quot; alt=&quot;250 biene&quot; style=&quot;margin-bottom: 15px; margin-left: 15px; float: right;&quot; /&gt;&lt;em&gt;&lt;span style=&quot;color: #000000;&quot;&gt;„Wer einmal mit einem Imker zusammen einen Bienenstock geöffnet hat, von hunderten friedlicher Bienen umschwärmt worden ist und den aromatischen Duft des Bienenstocks eingeatmet hat, steht in der Gefahr, sein Herz an diese wundervollen Geschöpfe zu verlieren.“&amp;nbsp;&lt;/span&gt;&lt;/em&gt;Erhard Maria Klein&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: inherit; color: inherit; font-family: inherit; font-size: 1rem;&quot;&gt;Seit dem Schuljahr 2015/2016 besteht auch am Leibniz-Gymnasium die Möglichkeit, dieses so faszinierende Handwerk der Imkerei zu erlernen.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Was zunächst im Rahmen des vom Landesverband der Schleswig-Holsteinischen und Hamburger Imker e.V. geförderten Projekts „Sommerbienen“ seinen Anfang nahm, hat sich zwischenzeitlich zu einer eigenständigen Schulimkerei entwickelt.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Dabei steht uns unser Schulimker Herr Redöhl mit Rat und Tat zur Seite und begleitet uns fachkundig durch das Bienenjahr.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Während wir im Frühjahr und Sommer direkt an unseren Bienenvölkern arbeiten und unseren leckeren Leibniz-Honig ernten können, beschäftigen wir uns im Herbst und Winter mit der Verarbeitung der Bienenprodukte. So werden in der Vorweihnachtszeit zum Beispiel Bienenwachskerzen gegossen, die wir anlässlich unseres traditionellen Adventsbasars verkaufen.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Aber es müssen auch die Vorbereitungen für das kommende Jahr getroffen werden. Dazu gehören alle anfallenden Instandhaltungsarbeiten genauso wie das Bauen und Drahten von Rähmchen, das Einlöten von Mittelwänden und vieles mehr.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Das Aneignen theoretischen Fachwissens rund um die Imkerei kommt dabei natürlich nicht zu kurz.&lt;/p&gt;
+&lt;p&gt;Interessierte Jungimker-/innen sind jederzeit herzlich willkommen!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler aller Klassenstufen&lt;/li&gt;
+&lt;li&gt;Zeit: Freitags, ab 13:10 Uhr bzw. nach Vereinbarung&lt;/li&gt;
+&lt;li&gt;Treffpunkt: Pausenhalle (vor den Nawi-Räumen)&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Silvia Lehrer und Hans-Joachim Redöhl (Schulimker)
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+		<category term="Arbeitsgemeinschaften" />
+	</entry>
+	<entry>
+		<title>Jazz-AG</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/493-jazz-ag.html"/>
+		<published>2017-09-11T14:53:11+02:00</published>
+		<updated>2017-09-11T14:53:11+02:00</updated>
+		<id>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/493-jazz-ag.html</id>
+		<author>
+			<name>Knut Bienengräber</name>
+			<email>kbienengraeber@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/jazz-ag/jazz-ag.JPG&quot; alt=&quot;&quot; width=&quot;300&quot; style=&quot;margin: 2px 30px 15px 15px; border: 0px none #000000; float: left;&quot; /&gt;Die Jazz-AG ist bisher eine Combo bestehend aus Trompete, Klavier, Bass, Schlagzeug und Vibrafon.&amp;nbsp;Die meisten der Musiker befinden sich im Q1-Jahrgang. Über weitere Musiker (z.B. gerne Saxophon) würden wir uns freuen. Unser Repertoire besteht überwiegend aus Jazzstandards. Das sind Jazz-Kompositionen vergangener Jahre und Jahrzehnte, die von Jazzmusikern besonders oft und kontinuierlich gespielt wurden. Besonders ist, dass man im Jazz lernt, eigene Melodien spontan zu entwickeln, d.h. improvisierte Musik zu spielen. Das Bild zeigt unseren Auftritt bei der Einweihung der neuen Schwartauer Markttwiete.&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 8 - Q2&lt;/li&gt;
+&lt;li&gt;Zeit: Freitags, 7. Stunde&lt;/li&gt;
+&lt;li&gt;Ort: Unterer Musikraum (Mu 49)&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Dirk Kelm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</summary>
+		<content type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/jazz-ag/jazz-ag.JPG&quot; alt=&quot;&quot; width=&quot;300&quot; style=&quot;margin: 2px 30px 15px 15px; border: 0px none #000000; float: left;&quot; /&gt;Die Jazz-AG ist bisher eine Combo bestehend aus Trompete, Klavier, Bass, Schlagzeug und Vibrafon.&amp;nbsp;Die meisten der Musiker befinden sich im Q1-Jahrgang. Über weitere Musiker (z.B. gerne Saxophon) würden wir uns freuen. Unser Repertoire besteht überwiegend aus Jazzstandards. Das sind Jazz-Kompositionen vergangener Jahre und Jahrzehnte, die von Jazzmusikern besonders oft und kontinuierlich gespielt wurden. Besonders ist, dass man im Jazz lernt, eigene Melodien spontan zu entwickeln, d.h. improvisierte Musik zu spielen. Das Bild zeigt unseren Auftritt bei der Einweihung der neuen Schwartauer Markttwiete.&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 8 - Q2&lt;/li&gt;
+&lt;li&gt;Zeit: Freitags, 7. Stunde&lt;/li&gt;
+&lt;li&gt;Ort: Unterer Musikraum (Mu 49)&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Dirk Kelm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</content>
+		<category term="Arbeitsgemeinschaften" />
+	</entry>
+	<entry>
+		<title>Kunst-AG</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/59-kunst-ag.html"/>
+		<published>2020-12-01T08:53:17+01:00</published>
+		<updated>2020-12-01T08:53:17+01:00</updated>
+		<id>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/59-kunst-ag.html</id>
+		<author>
+			<name>Antje Hesse</name>
+			<email>a.hesse@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;p class=&quot;p1&quot; style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/Kunst/20210108_134253.jpg&quot; alt=&quot;20210108 134253&quot; width=&quot;300&quot; height=&quot;225&quot; style=&quot;margin-right: 30px; border: 0px none #000000; float: left;&quot; /&gt;Alle, die Lust am Zeichnen, Malen, Drucken oder auch plastischem Gestalten haben, sind bei uns willkommen. Wir versuchen möglichst&amp;nbsp;eigene&lt;b&gt; Ideen &lt;/b&gt;zu entwickeln und umzusetzen - allein oder auch im Team. Dabei entstehen zum Beispiel Landschaften aus Kleisterpapier, Bilder auf Leinwand, großformatige Wandbilder für unser Schulgebäude …&lt;/p&gt;
+&lt;p class=&quot;p1&quot; style=&quot;text-align: justify;&quot;&gt;Auch wer ein künstlerisches Studium plant (z.B. Design, Mode, Fotografie, Architektur, Kunsterziehung …), kann bei uns Tipps für seine Bewerbungsmappe bekommen - aber bitte nicht erst einen Tag vor der Abgabe kommen …&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;p1&quot;&gt;Zielgruppe: Schülerinnen und Schüler der Klassen 5 – 12&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/Kunst/kunst_ag.png&quot; alt=&quot;kunst ag&quot; width=&quot;132&quot; height=&quot;151&quot; style=&quot;margin-bottom: 15px; margin-left: 15px; float: right;&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;Zeit: Mittwochs, ab 13:15 Uhr&lt;/li&gt;
+&lt;li&gt;Ort: Kunstraum (R 82)&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Martin Kunau&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;{gallery}statisch/Arbeitsgemeinschaften/Kunst/galerie/{/gallery}&lt;/p&gt;</summary>
+		<content type="html">&lt;p class=&quot;p1&quot; style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/Kunst/20210108_134253.jpg&quot; alt=&quot;20210108 134253&quot; width=&quot;300&quot; height=&quot;225&quot; style=&quot;margin-right: 30px; border: 0px none #000000; float: left;&quot; /&gt;Alle, die Lust am Zeichnen, Malen, Drucken oder auch plastischem Gestalten haben, sind bei uns willkommen. Wir versuchen möglichst&amp;nbsp;eigene&lt;b&gt; Ideen &lt;/b&gt;zu entwickeln und umzusetzen - allein oder auch im Team. Dabei entstehen zum Beispiel Landschaften aus Kleisterpapier, Bilder auf Leinwand, großformatige Wandbilder für unser Schulgebäude …&lt;/p&gt;
+&lt;p class=&quot;p1&quot; style=&quot;text-align: justify;&quot;&gt;Auch wer ein künstlerisches Studium plant (z.B. Design, Mode, Fotografie, Architektur, Kunsterziehung …), kann bei uns Tipps für seine Bewerbungsmappe bekommen - aber bitte nicht erst einen Tag vor der Abgabe kommen …&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;p1&quot;&gt;Zielgruppe: Schülerinnen und Schüler der Klassen 5 – 12&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/Kunst/kunst_ag.png&quot; alt=&quot;kunst ag&quot; width=&quot;132&quot; height=&quot;151&quot; style=&quot;margin-bottom: 15px; margin-left: 15px; float: right;&quot; /&gt;&lt;/li&gt;
+&lt;li&gt;Zeit: Mittwochs, ab 13:15 Uhr&lt;/li&gt;
+&lt;li&gt;Ort: Kunstraum (R 82)&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Martin Kunau&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;{gallery}statisch/Arbeitsgemeinschaften/Kunst/galerie/{/gallery}&lt;/p&gt;</content>
+		<category term="Arbeitsgemeinschaften" />
+	</entry>
+	<entry>
+		<title>Mathe-AG</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/22-mathe-ag.html"/>
+		<published>2012-09-25T20:04:08+02:00</published>
+		<updated>2012-09-25T20:04:08+02:00</updated>
+		<id>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/22-mathe-ag.html</id>
+		<author>
+			<name>Antje Hesse</name>
+			<email>a.hesse@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/mathe_ag/mathe_ag.png&quot; alt=&quot;mathe ag&quot; width=&quot;200&quot; height=&quot;184&quot; style=&quot;margin-bottom: 15px; margin-left: 15px; float: right;&quot; /&gt;Wer Lust hat, sich außerhalb des regulären Unterrichts mit mathematischen Problemen zu beschäftigen, ist bei der Mathe-AG genau richtig. Die Schülerinnen und Schüler der AG arbeiten meist innerhalb ihrer Jahrgänge, an passenden Stellen werden auch jahrgangsübergreifende Gruppen gebildet. Die Teilnehmer der Mathe-AG können sich an der Mathematik-Olympiade und der langen Nacht der Mathematik beteiligen.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 5 - 12&lt;/li&gt;
+&lt;li&gt;Zeit: Montags (14-täglich), 14:00 - 15:30 Uhr&lt;/li&gt;
+&lt;li&gt;Ort: siehe Aushang Pinnwand&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Michael Rehbein und Birgit Gudat&lt;/li&gt;
+&lt;/ul&gt;</summary>
+		<content type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/mathe_ag/mathe_ag.png&quot; alt=&quot;mathe ag&quot; width=&quot;200&quot; height=&quot;184&quot; style=&quot;margin-bottom: 15px; margin-left: 15px; float: right;&quot; /&gt;Wer Lust hat, sich außerhalb des regulären Unterrichts mit mathematischen Problemen zu beschäftigen, ist bei der Mathe-AG genau richtig. Die Schülerinnen und Schüler der AG arbeiten meist innerhalb ihrer Jahrgänge, an passenden Stellen werden auch jahrgangsübergreifende Gruppen gebildet. Die Teilnehmer der Mathe-AG können sich an der Mathematik-Olympiade und der langen Nacht der Mathematik beteiligen.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 5 - 12&lt;/li&gt;
+&lt;li&gt;Zeit: Montags (14-täglich), 14:00 - 15:30 Uhr&lt;/li&gt;
+&lt;li&gt;Ort: siehe Aushang Pinnwand&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Michael Rehbein und Birgit Gudat&lt;/li&gt;
+&lt;/ul&gt;</content>
+		<category term="Arbeitsgemeinschaften" />
+	</entry>
+	<entry>
+		<title>Physik-AG</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/1043-physik-ag.html"/>
+		<published>2023-05-07T10:04:18+02:00</published>
+		<updated>2023-05-07T10:04:18+02:00</updated>
+		<id>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/1043-physik-ag.html</id>
+		<author>
+			<name>Antje Hesse</name>
+			<email>a.hesse@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/physik-ag/800-physik-ag.gif&quot; alt=&quot;800 physik ag&quot; width=&quot;300&quot; height=&quot;209&quot; style=&quot;margin-left: 15px; margin-bottom: 15px; float: right;&quot; /&gt;Für Schülerinnen und Schüler der 5. und 6. Klassen gibt es wieder die Physik-AG.&lt;/p&gt;
+&lt;p&gt;Wir einigen uns gemeinsam auf ein Themengebiet, das wir über mehrere Wochen untersuchen.&lt;/p&gt;
+&lt;p&gt;Im Zentrum stehen dabei vor allem physikalische Experimente. Manchmal verwenden wir dafür mitgebrachte Spielzeuge, manchmal benutzen wir Geräte aus der Physik-Sammlung der Schule. Wir haben uns in der Vergangenheit beispielsweise mit elektrischem Strom beschäftigt. Auch zu mechanischen Bewegungen und Geschwindigkeiten kann man vieles ausprobieren.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 5 und 6&lt;/li&gt;
+&lt;li&gt;Zeit: Mittwochs, in der 7. und 8. Stunde (Es ist auch möglich, nur für eine der beiden Stunden teilzunehmen.)&lt;/li&gt;
+&lt;li&gt;Ort: NW65&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Dr. Martin Breede&lt;/li&gt;
+&lt;/ul&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/physik-ag/800-physik-ag.gif&quot; alt=&quot;800 physik ag&quot; width=&quot;300&quot; height=&quot;209&quot; style=&quot;margin-left: 15px; margin-bottom: 15px; float: right;&quot; /&gt;Für Schülerinnen und Schüler der 5. und 6. Klassen gibt es wieder die Physik-AG.&lt;/p&gt;
+&lt;p&gt;Wir einigen uns gemeinsam auf ein Themengebiet, das wir über mehrere Wochen untersuchen.&lt;/p&gt;
+&lt;p&gt;Im Zentrum stehen dabei vor allem physikalische Experimente. Manchmal verwenden wir dafür mitgebrachte Spielzeuge, manchmal benutzen wir Geräte aus der Physik-Sammlung der Schule. Wir haben uns in der Vergangenheit beispielsweise mit elektrischem Strom beschäftigt. Auch zu mechanischen Bewegungen und Geschwindigkeiten kann man vieles ausprobieren.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 5 und 6&lt;/li&gt;
+&lt;li&gt;Zeit: Mittwochs, in der 7. und 8. Stunde (Es ist auch möglich, nur für eine der beiden Stunden teilzunehmen.)&lt;/li&gt;
+&lt;li&gt;Ort: NW65&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Dr. Martin Breede&lt;/li&gt;
+&lt;/ul&gt;</content>
+		<category term="Arbeitsgemeinschaften" />
+	</entry>
+	<entry>
+		<title>Rudern</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/61-rudern.html"/>
+		<published>2012-10-19T08:59:22+02:00</published>
+		<updated>2012-10-19T08:59:22+02:00</updated>
+		<id>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/61-rudern.html</id>
+		<author>
+			<name>Antje Hesse</name>
+			<email>a.hesse@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/rudern/rudern-neu-klein.jpg&quot; alt=&quot;rudern-neu-klein&quot; width=&quot;226&quot; height=&quot;101&quot; style=&quot;margin-left: 15px; margin-bottom: 15px; float: right;&quot; /&gt;Du hast Interesse am Rudern? Dann bist Du bei der Schüler-Ruder-Riege genau richtig. Seit über 60 Jahren steuern wir die verschiedensten Ziele in unserer Umgebung an: die Trave, runter bis nach Travemünde; die Trave rauf in die Lübecker Innenstadt; die Schwartau, bis zum Kurparksee; die Wakenitz bis nach Ratzeburg.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Wir bringen euch die richtige Rudertechnik bei, sodass Ausdauer und Kraft richtig trainiert werden.&amp;nbsp;Gleichzeitig lernt ihr viele neue Mitschülerinnen und Mitschüler kennen und stärkt somit den Zusammenhalt in der Gruppe.&amp;nbsp;Mehrmals im Jahr rudern wir auch größere Touren, wie z.B. von Schwerin zurück nach Schwartau oder extern auf dem Wesermarathon oder dem Härtetest.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Ab dem 07.11.2022 bietet die Ruder RG ein Wintertraining in unserer großen Sporthalle an. Bitte beachtet somit unsere neuen unten stehenden Daten.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;text-align: justify;&quot;&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 5 - 12&lt;/li&gt;
+&lt;li&gt;Zeiten: Montags und donnerstags 16:00 Uhr sowie samstags 11:00 Uhr&lt;/li&gt;
+&lt;li&gt;Ort: Große Sporthalle&lt;/li&gt;
+&lt;li&gt;Leitung: Schülerinnen und Schüler&lt;/li&gt;
+&lt;li&gt;Ansprechpartner: Ida Rosin, Tamme Westphal, Jonas Hauschild, Jakob Kalläne&lt;/li&gt;
+&lt;li&gt;Homepage: &lt;a href=&quot;http://www.srrlg.de/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;www.SRRLG.de&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Instagram: &lt;a href=&quot;https://www.instagram.com/s_r_r.lg/&quot;&gt;https://www.instagram.com/s_r_r.lg/&lt;/a&gt;&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;video src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/rudern/WhatsApp_Video_2021-09-10_at_21.42.55.mp4&quot; controls=&quot;controls&quot; width=&quot;300&quot; height=&quot;170&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot;&gt;&lt;/video&gt;
+&lt;/p&gt;
+&lt;p&gt;Wenn ihr aktuelle Beiträge der SRR lesen möchtet, dann klickt bitte &lt;a href=&quot;https://www.leibnizgymnasium.de/component/tags/tag/srr.html&quot;&gt;hier&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</summary>
+		<content type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/rudern/rudern-neu-klein.jpg&quot; alt=&quot;rudern-neu-klein&quot; width=&quot;226&quot; height=&quot;101&quot; style=&quot;margin-left: 15px; margin-bottom: 15px; float: right;&quot; /&gt;Du hast Interesse am Rudern? Dann bist Du bei der Schüler-Ruder-Riege genau richtig. Seit über 60 Jahren steuern wir die verschiedensten Ziele in unserer Umgebung an: die Trave, runter bis nach Travemünde; die Trave rauf in die Lübecker Innenstadt; die Schwartau, bis zum Kurparksee; die Wakenitz bis nach Ratzeburg.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Wir bringen euch die richtige Rudertechnik bei, sodass Ausdauer und Kraft richtig trainiert werden.&amp;nbsp;Gleichzeitig lernt ihr viele neue Mitschülerinnen und Mitschüler kennen und stärkt somit den Zusammenhalt in der Gruppe.&amp;nbsp;Mehrmals im Jahr rudern wir auch größere Touren, wie z.B. von Schwerin zurück nach Schwartau oder extern auf dem Wesermarathon oder dem Härtetest.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Ab dem 07.11.2022 bietet die Ruder RG ein Wintertraining in unserer großen Sporthalle an. Bitte beachtet somit unsere neuen unten stehenden Daten.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;text-align: justify;&quot;&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 5 - 12&lt;/li&gt;
+&lt;li&gt;Zeiten: Montags und donnerstags 16:00 Uhr sowie samstags 11:00 Uhr&lt;/li&gt;
+&lt;li&gt;Ort: Große Sporthalle&lt;/li&gt;
+&lt;li&gt;Leitung: Schülerinnen und Schüler&lt;/li&gt;
+&lt;li&gt;Ansprechpartner: Ida Rosin, Tamme Westphal, Jonas Hauschild, Jakob Kalläne&lt;/li&gt;
+&lt;li&gt;Homepage: &lt;a href=&quot;http://www.srrlg.de/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;www.SRRLG.de&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Instagram: &lt;a href=&quot;https://www.instagram.com/s_r_r.lg/&quot;&gt;https://www.instagram.com/s_r_r.lg/&lt;/a&gt;&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;video src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/rudern/WhatsApp_Video_2021-09-10_at_21.42.55.mp4&quot; controls=&quot;controls&quot; width=&quot;300&quot; height=&quot;170&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot;&gt;&lt;/video&gt;
+&lt;/p&gt;
+&lt;p&gt;Wenn ihr aktuelle Beiträge der SRR lesen möchtet, dann klickt bitte &lt;a href=&quot;https://www.leibnizgymnasium.de/component/tags/tag/srr.html&quot;&gt;hier&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</content>
+		<category term="Arbeitsgemeinschaften" />
+	</entry>
+	<entry>
+		<title>Salonorchester</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/492-salonorchester.html"/>
+		<published>2017-09-11T14:49:22+02:00</published>
+		<updated>2017-09-11T14:49:22+02:00</updated>
+		<id>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/492-salonorchester.html</id>
+		<author>
+			<name>Knut Bienengräber</name>
+			<email>kbienengraeber@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/salonorchester/salon-ag.jpg&quot; alt=&quot;&quot; width=&quot;200&quot; style=&quot;margin: 2px 30px 15px 15px; border: 0px none #000000; float: left;&quot; /&gt;Laut Wikipedia ist ein Salonorchester „ein kleineres Instrumentalensemble, das vor allem für die Aufführung von Unterhaltungsmusik aus der Zeit zwischen etwa 1880 und 1950 zum Einsatz kommt. Bedarf für diese Art Orchester gab es im bürgerlichen Salon und im Ballsaal des 19. Jahrhunderts. Auch nebenbei gehörte Musik musste einst noch live gespielt werden. Das Repertoire dieser Orchester nennt sich Salonmusik.“&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Wir nennen uns Salonorchester, weil wir noch ein kleines Ensemble sind. Unser Repertoire endet dafür aber nicht 1950. Wir spielen beispielsweise&amp;nbsp; auch Arrangements aktueller Filmmusik („Fluch der Karibik“) und werden auch Bearbeitungen bekannter klassischer Komponisten aufführen. Bisher sind wir beim Kiwanis SchulMusikFestival und bei den Musik-Abenden unserer Schule aufgetreten. Wir suchen noch Mitspielerinnen und Mitspieler, und wer ein Orchesterinstrument wie Geige, Cello, Querflöte, Klarinette etc. spielt, ist herzlich willkommen.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Das aktuelle &lt;a href=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/salonorchester/Orchestertermin.pdf&quot; target=&quot;_blank&quot; class=&quot;wf_file&quot;&gt;&lt;span class=&quot;wf_file_text&quot;&gt;AG-Poster&lt;/span&gt;&lt;/a&gt; ist hier als PDF verfügbar.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 5 - Q2&lt;/li&gt;
+&lt;li&gt;Zeit: Donnerstags, 8. Stunde&lt;/li&gt;
+&lt;li&gt;Ort: Oberer Musikraum (Mu 55)&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Dirk Kelm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</summary>
+		<content type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/salonorchester/salon-ag.jpg&quot; alt=&quot;&quot; width=&quot;200&quot; style=&quot;margin: 2px 30px 15px 15px; border: 0px none #000000; float: left;&quot; /&gt;Laut Wikipedia ist ein Salonorchester „ein kleineres Instrumentalensemble, das vor allem für die Aufführung von Unterhaltungsmusik aus der Zeit zwischen etwa 1880 und 1950 zum Einsatz kommt. Bedarf für diese Art Orchester gab es im bürgerlichen Salon und im Ballsaal des 19. Jahrhunderts. Auch nebenbei gehörte Musik musste einst noch live gespielt werden. Das Repertoire dieser Orchester nennt sich Salonmusik.“&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Wir nennen uns Salonorchester, weil wir noch ein kleines Ensemble sind. Unser Repertoire endet dafür aber nicht 1950. Wir spielen beispielsweise&amp;nbsp; auch Arrangements aktueller Filmmusik („Fluch der Karibik“) und werden auch Bearbeitungen bekannter klassischer Komponisten aufführen. Bisher sind wir beim Kiwanis SchulMusikFestival und bei den Musik-Abenden unserer Schule aufgetreten. Wir suchen noch Mitspielerinnen und Mitspieler, und wer ein Orchesterinstrument wie Geige, Cello, Querflöte, Klarinette etc. spielt, ist herzlich willkommen.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Das aktuelle &lt;a href=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/salonorchester/Orchestertermin.pdf&quot; target=&quot;_blank&quot; class=&quot;wf_file&quot;&gt;&lt;span class=&quot;wf_file_text&quot;&gt;AG-Poster&lt;/span&gt;&lt;/a&gt; ist hier als PDF verfügbar.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 5 - Q2&lt;/li&gt;
+&lt;li&gt;Zeit: Donnerstags, 8. Stunde&lt;/li&gt;
+&lt;li&gt;Ort: Oberer Musikraum (Mu 55)&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Dirk Kelm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</content>
+		<category term="Arbeitsgemeinschaften" />
+	</entry>
+	<entry>
+		<title>Schulband-AG</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/982-percussion-ag.html"/>
+		<published>2022-11-01T21:41:08+01:00</published>
+		<updated>2022-11-01T21:41:08+01:00</updated>
+		<id>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/982-percussion-ag.html</id>
+		<author>
+			<name>Antje Hesse</name>
+			<email>a.hesse@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/schulband-ag/2024-schulband-ag.gif&quot; alt=&quot;2024 schulband ag&quot; width=&quot;400&quot; height=&quot;296&quot; style=&quot;margin-left: 15px; float: right;&quot; /&gt;Die neue Schulband beschäftigt sich mit aktuellen Musikrichtungen und Klassikern der Pop- und Rockmusik. Es finden regelmäßige Auftritte bei Schulkonzerten statt.&lt;/p&gt;
+&lt;p&gt;Willkommen sind alle, die ihre Instrumente auf Grundniveau beherrschen und in der Lage sind, verlässlich über die Schulcloud zu kommunizieren.&lt;/p&gt;
+&lt;p&gt;Weiterhin gerne willkommen sind folgende Instrumente: Gitarre, Trompete, Saxofon, Posaune&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 8 bis Q2&lt;/li&gt;
+&lt;li&gt;Zeit: Montags, 14:00 - 15:30 Uhr&lt;/li&gt;
+&lt;li&gt;Ort: Oberer Musikraum&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Olaf Koep&lt;/li&gt;
+&lt;/ul&gt;</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/schulband-ag/2024-schulband-ag.gif&quot; alt=&quot;2024 schulband ag&quot; width=&quot;400&quot; height=&quot;296&quot; style=&quot;margin-left: 15px; float: right;&quot; /&gt;Die neue Schulband beschäftigt sich mit aktuellen Musikrichtungen und Klassikern der Pop- und Rockmusik. Es finden regelmäßige Auftritte bei Schulkonzerten statt.&lt;/p&gt;
+&lt;p&gt;Willkommen sind alle, die ihre Instrumente auf Grundniveau beherrschen und in der Lage sind, verlässlich über die Schulcloud zu kommunizieren.&lt;/p&gt;
+&lt;p&gt;Weiterhin gerne willkommen sind folgende Instrumente: Gitarre, Trompete, Saxofon, Posaune&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 8 bis Q2&lt;/li&gt;
+&lt;li&gt;Zeit: Montags, 14:00 - 15:30 Uhr&lt;/li&gt;
+&lt;li&gt;Ort: Oberer Musikraum&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Olaf Koep&lt;/li&gt;
+&lt;/ul&gt;</content>
+		<category term="Arbeitsgemeinschaften" />
+	</entry>
+	<entry>
+		<title>Veranstaltungstechnik-AG</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/21-veranstaltungstechnik-ag.html"/>
+		<published>2012-09-25T20:02:18+02:00</published>
+		<updated>2012-09-25T20:02:18+02:00</updated>
+		<id>https://www.leibnizgymnasium.de/ausserunterrichtliche-angebote/arbeitsgemeinschaften/21-veranstaltungstechnik-ag.html</id>
+		<author>
+			<name>Antje Hesse</name>
+			<email>a.hesse@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/veranstaltungstechnik_ag/veranstaltungstechnik_ag.jpg&quot; alt=&quot;veranstaltungstechnik ag&quot; width=&quot;202&quot; height=&quot;249&quot; style=&quot;margin-right: 15px; float: left;&quot; /&gt;Die Schülerinnen und Schüler der Veranstaltungstechnikgruppe betreuen eigenverantwortlich etwa 30 Schulveranstaltungen pro Jahr, bei denen in irgendeiner Form Ton und Licht benötigt wird (z.B. Einschulung, Abi-Verabschiedung, Informationsveranstaltungen, Theater, Musical, Unterstufen- und Mittelstufenparty, Sponsorenlauf, Bundesjugendspiele, Weihnachtsbasar, Musikabende, Gastauftritte etc.). Anlassbezogen finden Schulungen zu einzelnen Themen aus dem Bereich der Veranstaltungstechnik statt (bspw. Sicherheit, digitale Lichtsteuerung, Audio-Signalverarbeitung, Mikrophonierung, Durchführungsplanung, etc.). Die Veranstaltungstechnik-Gruppe richtet sich vorwiegend an Schülerinnen und Schüler mit besonderer technischer Begabung und einem hohem Maß an Verantwortungsbewusstein.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 9 - Q2&lt;/li&gt;
+&lt;li&gt;Zeit: Anlassbezogen&lt;/li&gt;
+&lt;li&gt;Ort: Anlassbezogen&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Oliver Brüning&lt;/li&gt;
+&lt;/ul&gt;</summary>
+		<content type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Arbeitsgemeinschaften/veranstaltungstechnik_ag/veranstaltungstechnik_ag.jpg&quot; alt=&quot;veranstaltungstechnik ag&quot; width=&quot;202&quot; height=&quot;249&quot; style=&quot;margin-right: 15px; float: left;&quot; /&gt;Die Schülerinnen und Schüler der Veranstaltungstechnikgruppe betreuen eigenverantwortlich etwa 30 Schulveranstaltungen pro Jahr, bei denen in irgendeiner Form Ton und Licht benötigt wird (z.B. Einschulung, Abi-Verabschiedung, Informationsveranstaltungen, Theater, Musical, Unterstufen- und Mittelstufenparty, Sponsorenlauf, Bundesjugendspiele, Weihnachtsbasar, Musikabende, Gastauftritte etc.). Anlassbezogen finden Schulungen zu einzelnen Themen aus dem Bereich der Veranstaltungstechnik statt (bspw. Sicherheit, digitale Lichtsteuerung, Audio-Signalverarbeitung, Mikrophonierung, Durchführungsplanung, etc.). Die Veranstaltungstechnik-Gruppe richtet sich vorwiegend an Schülerinnen und Schüler mit besonderer technischer Begabung und einem hohem Maß an Verantwortungsbewusstein.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Zielgruppe: Schülerinnen und Schüler der Klassenstufen 9 - Q2&lt;/li&gt;
+&lt;li&gt;Zeit: Anlassbezogen&lt;/li&gt;
+&lt;li&gt;Ort: Anlassbezogen&lt;/li&gt;
+&lt;li&gt;AG-Leitung: Oliver Brüning&lt;/li&gt;
+&lt;/ul&gt;</content>
+		<category term="Arbeitsgemeinschaften" />
+	</entry>
+</feed>

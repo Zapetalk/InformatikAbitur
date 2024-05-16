@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de-de">
+	<title type="text">Bistro</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de"/>
+	<id>https://www.leibnizgymnasium.de/wir-sind-das-leibniz/bistro.feed</id>
+	<updated>2024-05-09T21:15:28+02:00</updated>
+	<author>
+		<name>Leibniz-Gymnasium Bad Schwartau</name>
+		<email>leibniz-gymnasium.bad-schwartau@schule.landsh.de</email>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="https://www.leibnizgymnasium.de/wir-sind-das-leibniz/bistro.feed?type=atom"/>
+	<entry>
+		<title>Bistro</title>
+		<link rel="alternate" type="text/html" href="https://www.leibnizgymnasium.de/wir-sind-das-leibniz/bistro/16-bistro.html"/>
+		<published>2012-09-24T11:56:44+02:00</published>
+		<updated>2012-09-24T11:56:44+02:00</updated>
+		<id>https://www.leibnizgymnasium.de/wir-sind-das-leibniz/bistro/16-bistro.html</id>
+		<author>
+			<name>Antje Hesse</name>
+			<email>a.hesse@leibnizgymnasium.de</email>
+		</author>
+		<summary type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Bistro/bistro.jpg&quot; alt=&quot;bistro&quot; width=&quot;216&quot; height=&quot;199&quot; style=&quot;margin-top: 2px; margin-right: 15px; float: left;&quot; /&gt;Unser Bistro wurde vor vielen Jahren von einer Elterninitiative gegründet. Das Ziel: Den Kindern und Jugendlichen ein Frühstück oder einen Pausensnack in der Schule zu ermöglichen. Das Angebot ist vielfältig und preisgünstig: Verschiedene Müslisorten, Porridge, Obst, Salat, Joghurt, belegte Brötchen, Wraps, warme Würstchen und diverse Backwaren werden in den zwei großen Pausen verkauft. Aus dem erwirtschafteten Gewinn werden Projekte und Klassenfahrten unterstützt, Feste mitfinanziert und Geschenke an die Schule gemacht. Täglich sind drei bis vier ehrenamtliche Helfer und Helferinnen von 8:30 - 12:00 Uhr im Einsatz. Die Kinder der Bistro-Helfenden werden auch belohnt: Sie dürfen sich am Einsatztag der Eltern kostenlos von dem Bistroangebot etwas aussuchen.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Unser Team braucht im neuen Schuljahr Verstärkung. Darum freuen wir uns, wenn Eltern der neuen Jahrgänge uns unterstützen. Vielleicht haben Sie Lust, 1 x pro Woche oder alle 14 Tage oder 1 x im Monat mitzuhelfen? Es ist eine gute Sache, es macht viel Spaß, man erlebt die Kinder auf eine neue Art, man trifft die Freunde der Kinder und die Kinder der Freunde, man tauscht sich mit anderen Eltern aus, man erfährt viel (oft mehr als am Elternabend) und man bekommt Einblick ins Schulleben.&lt;/p&gt;
+&lt;p&gt;Bei Interesse freuen wir uns über eine Kontaktaufnahme mit Vibeke Laatz per E-Mail unter laatz@gmx.de oder mobil unter 0176-20667738.&lt;/p&gt;
+&lt;p&gt;{loadmoduleid 205}&lt;/p&gt;</summary>
+		<content type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;img src=&quot;https://www.leibnizgymnasium.de/medien/statisch/Bistro/bistro.jpg&quot; alt=&quot;bistro&quot; width=&quot;216&quot; height=&quot;199&quot; style=&quot;margin-top: 2px; margin-right: 15px; float: left;&quot; /&gt;Unser Bistro wurde vor vielen Jahren von einer Elterninitiative gegründet. Das Ziel: Den Kindern und Jugendlichen ein Frühstück oder einen Pausensnack in der Schule zu ermöglichen. Das Angebot ist vielfältig und preisgünstig: Verschiedene Müslisorten, Porridge, Obst, Salat, Joghurt, belegte Brötchen, Wraps, warme Würstchen und diverse Backwaren werden in den zwei großen Pausen verkauft. Aus dem erwirtschafteten Gewinn werden Projekte und Klassenfahrten unterstützt, Feste mitfinanziert und Geschenke an die Schule gemacht. Täglich sind drei bis vier ehrenamtliche Helfer und Helferinnen von 8:30 - 12:00 Uhr im Einsatz. Die Kinder der Bistro-Helfenden werden auch belohnt: Sie dürfen sich am Einsatztag der Eltern kostenlos von dem Bistroangebot etwas aussuchen.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Unser Team braucht im neuen Schuljahr Verstärkung. Darum freuen wir uns, wenn Eltern der neuen Jahrgänge uns unterstützen. Vielleicht haben Sie Lust, 1 x pro Woche oder alle 14 Tage oder 1 x im Monat mitzuhelfen? Es ist eine gute Sache, es macht viel Spaß, man erlebt die Kinder auf eine neue Art, man trifft die Freunde der Kinder und die Kinder der Freunde, man tauscht sich mit anderen Eltern aus, man erfährt viel (oft mehr als am Elternabend) und man bekommt Einblick ins Schulleben.&lt;/p&gt;
+&lt;p&gt;Bei Interesse freuen wir uns über eine Kontaktaufnahme mit Vibeke Laatz per E-Mail unter laatz@gmx.de oder mobil unter 0176-20667738.&lt;/p&gt;
+&lt;p&gt;{loadmoduleid 205}&lt;/p&gt;</content>
+		<category term="Bistro" />
+	</entry>
+</feed>
