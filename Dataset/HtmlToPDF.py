@@ -2,7 +2,7 @@ import os  # Package um mit Ordnern und Dateien zu arbeiten
 from pyhtml2pdf import converter  # Package
 
 FOLDER_HTML = 'C:\\Users\\joon\\PycharmProjects\\InformatikAbitur\\FinalData\\Html'  # Ordner mit den HTML Dateien
-FOLDER_HTML_TO_PDF = 'C:\\Users\\joon\\PycharmProjects\\InformatikAbitur\\FinalData\\Pdf'  # Ordner in
+FOLDER_PDF = 'C:\\Users\\joon\\PycharmProjects\\InformatikAbitur\\FinalData\\Pdf'  # Ordner in
 
 
 # den die neuen PDFs kopiert werden sollen
@@ -20,4 +20,4 @@ def getHtmlFiles():
 html = getHtmlFiles()  # Ruft die Funktion auf und speichert die Liste
 for file in html:  # Ruft alle Datei-Paths in der Liste einzeln auf
     # Speichert die HTML-Datei als neue PDF-Datei am neuen Ordner:
-    converter.convert(os.path.join(FOLDER_HTML, file), os.path.join(FOLDER_HTML_TO_PDF, file.replace(".html", ".pdf")))
+    converter.convert(os.path.join(FOLDER_HTML, file), os.path.join(FOLDER_PDF, file.replace(".html", ".pdf")))
