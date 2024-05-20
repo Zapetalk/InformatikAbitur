@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeibnizChat</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png">
+</head>
+<body>
+  <div class="chat-container">
+    <header>
+      <img src="logo.png" alt="Leibniz Gymnasium">  <h1>LeibnizChat</h1>
+    </header>
+    <div class="chat-input">
+        <input type="text" id="prompt" name="message" placeholder="Deine Frage an die KI">
+        <button type="submit" onclick="generateAI()">Abschicken</button>
+      </div>
+    <div class="chat-history">
+        <h3> Antwort der KI:</h3>
+        <p id="answer">
+        </p>
+    </div>
+  </div>
+  <script>
+    function generateAI() {
+        var prompt = document.getElementById('prompt').value; // Speichert die Frage
+
+        var xhr = new XMLHttpRequest(); // Erstellt eine neue Request an einen Server
+        xhr.open("POST", "process.php", true); // Defieniert die Datei und Methode der Request
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"); // Defieniert den Header
+        xhr.send("prompt=" + prompt); // Fügt die Frage der Request zu und senden die Request ab
+        document.getElementById("answer").innerHTML = "<img src=\"loading.gif\" alt=\"Laden\" width=\"50px\" height=\"50px\">"; // Stellt den Ladekreis an
+
+        // Funktion die beim Empfangen von Daten ausgeführt wird:
+        xhr.onreadystatechange = function () { 
+            if (xhr.readyState == 4 && xhr.status == 200) { //Überprüft ob die Antwort fertig ist
+                document.getElementById("answer").innerHTML = xhr.responseText; // Zeigt die Antwort der KI an
+            }
+        };
+    }
+</script>
+</body>
+</html>

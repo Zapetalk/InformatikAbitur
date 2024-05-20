@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "leibnizchat",
+  "private_key_id": "38084adcf3f6bc6b70f30042bebe2ca4aa8f73df",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD3A66KM8ASHA79\nOrbEZaQWephxaImy2izOkcUKG3goJ7qsH3EHHvHKH75BTumrsav9hmlFwW9EBTFN\nwCTd1V4fGDcSt9iysxsP3x67QgGS5oUweAlzN8Ce7d//REMB8zM1+SW7ghJ4X0+j\n4qt0lTzadTBcQMiOaBxeOLsHT96IfISD3w0GMIv1vO37JmnAMA+zSEC7bppkEHnD\nm3H2y8fPRJ/FgDIDKISk/pZZmmTjr0qH9y7XJA1kxEgbnEaBFS+qa9ZNLZFuomLf\n/Kj4RtAx5Zrrh2K2FZeRp6yJZ+dHbI6xNNEi8G3GFn7MRSbXbtPd3m+k2Y4eeDKQ\nU18OvC53AgMBAAECggEAaI/YbIwnfAMAnVUjVNOpuBJBQZB86YbNfMvb2sFyBZ17\nuay9jcQdmfAB+2dKJvHY2kLxgSO209ZW3pC9imHtq7/2YCgOxOZoSDmsqpvwSpzm\nOHQ3m9w3347WSRo+Oy8VuH006cDPzMCb18X1yi36Sodc51BNFWsgxwnAsgGvM5qd\nHij/lnlytsFOdSh/6A6BhWMFXUdavh4+SC/pulJjHGWv2aC0m6B4FB0RZLtOSaI9\nEoMZKzXjM4xum7I9Tuz5gfWLkAP/mSq5kBRByEYp1dRFYVEVQU2TOzTFEIyBMcre\nVRgJ53WWWM/j7crkXFijY8vpBKKD/6Lzt+Re0Cz/sQKBgQD9nAgrmzzQt6bP3qfO\n7IwJ7b1spMwzyc/bpvrMDeNvBeFaaxcfYoL0x+meHlUI+gMHYn+0GewldPv6HNtH\nmja8wCW5CB+E5KibMnjEhO5MQMwKzNJK5bP6SHBWEhcotErlHva+LeU/+jYg6XlA\nDzdv5Yz9TYj4DXHkXr1RKZdeCwKBgQD5V7xTM9VlylmeHcJYmi8gqaaPgQZ3wLk9\nqHJX5SQ9tG7gl0p4jkE9Npmr05R4MmI/hagYSw9H8uLqnBAkq4fxVBum6ryD04mU\no+IJW3IvtbCTTFNmvuobvNwp643HsGuTm/caNwcaGbPFUKM99KrHRse0JjoLvTVM\nvxE4udRwxQKBgQC/Q7fduzwIZRlHWDLSmg+bRVNA5qCixicfDzXCQw8tog+s82sC\n3nbJSSPlfha/qF40aZLKL2qrbSjEHpM50xJJE9jfTUMIJLMMKOpvu5lEpPG9i29l\n0QsFTTB7mTUiG6cIWWvZTh/BOmEsPSiWqWMz3rmQJ7OO8ATfKJw649UmtQKBgHCJ\nW7NFwrvVb0tA7TVmKX0ZdNZyCoREFJcyjqEDB69d32k4f2EX+3PwT71QmkMBonw/\nC9YjEnuLsUToORUD4jBWoMBeU8U/1Wmj6eIFRu0nmNFycnX+FtV8EPZOnUgSZQtT\nKlzHl0n9bbjRo0vUQLv+QyYY1rvzornHxrMOlEZtAoGAX0tIdjD++feBefYwXGxL\n+BY+lxhPD8ABG1R8f8oZDP3UJeiFMUmVCjrYAYGXW3V6cVmgPLy25dgXkU7E511u\nLhdfWMNZSXScDGsIg2euPHqaCKK061Vha2NOCoBYUSe9eKJz8iU3i2LlqVRRYhlk\nLYFVvhW0oehsJC9KM++/274=\n-----END PRIVATE KEY-----\n",
+  "client_email": "leibnizchat@leibnizchat.iam.gserviceaccount.com",
+  "client_id": "114097981661070150089",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/leibnizchat%40leibnizchat.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
