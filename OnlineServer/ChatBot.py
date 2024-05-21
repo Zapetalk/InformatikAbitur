@@ -64,11 +64,15 @@ text_content = download_blob(bucket_name, source_blob_name)
 
 # Parameters zum Verhalten der KI:
 parameters = {
-    "temperature": 0.2,  # Definiert wie sicher die KI sich sein muss
+    "temperature": 0.2,  # Definiert wie Korrekt bzw kreativ die KI ist
     "max_output_tokens": 1024,  # Definiert die maximale Länge der Ausgabe
-    "top_p": 0.8,  # Wie richtig sollen die KI mehrere Token auswählen
-    "top_k": 40  # Wie richtig sollen die KI einzelnen Token auswählen
+    "top_k": 40  # Welche Token soll die KI überhaupt in betracht ziehen
+    "top_p": 0.8,  # Genauere Auswahl der Token mit den größten Wahrscheinlichkeiten,
+                   # sodass diese zusammen topP ergeben 
 }
+
+# Initiiert das Text Generation Model:
+model = GenerativeModel(model_name="gemini-1.5-pro-preview-0514", generation_config=parameters)
 
 # Baut die Prompt und den Context mittels Prompt Engeneering zusammen
 prompt = """
