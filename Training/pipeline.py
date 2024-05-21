@@ -22,66 +22,30 @@ def getMatchingFiles(directory: str) -> List[str]:
     return matching_files  # Gibt die Liste an Dateien aus
 
 
-# Gibt an welche Interpreter und welche Packages benutzt werden
-@dsl.component(
-    base_image='python:3.11',
-    packages_to_install=['pypdf2==2.12.1', 'appengine-python-standard']
-)
-# Teilt ein PDF in einzelne Seiten auf und speichert diese in einem neuen Ordner
-def splitIntoPages(pdf_file: str) -> List[str]:
-    import os  # Package zum Arbeiten mit Dateien und Ordern
-    import PyPDF2  # Package zum Arbeiten mit PDFs
-
-    page_files = []  # Liste mit den jeweiligen Datei-Paths des PDFs
-
-    # Öffnet die Datei im Lese und binären Modus:
-    with open(pdf_file.replace("gs://", "/gcs/"), 'rb') as file:
-        pdf_reader = PyPDF2.PdfFileReader(file)  # Erstellt ein Objekt zum Lesen der Datei
-        total_pages = pdf_reader.numPages  # Gibt die Anzahl an Seiten an
-
-        # Zählschleife mit der Anzahl an Seiten:
-        for page_number in range(total_pages):
-            pdf_page = pdf_reader.getPage(page_number)  # Liest die aktuelle Seite
-            pdf_writer = PyPDF2.PdfFileWriter()  # Erstellt ein Objekt zum Schreiben von Dateien
-            pdf_writer.addPage(pdf_page)  # Fügt eine Seite dem neuen Dokument hinzu
-            # Erstellt einen neuen Ordner mit dem Namen des PDFs, falls er noch nicht existiert
-            os.makedirs(
-                os.path.dirname(pdf_file.replace("gs://", "/gcs/").replace(".pdf", "/")),
-                exist_ok=True
-            )
-            # Variable mit den Kompletten Dateien-Path der PDF-Seite inklusive Dateinamen:
-            output_file_path = pdf_file.replace("gs://", "/gcs/").replace(".pdf", "/") + \
-                               pdf_file.split("/")[-1].replace(".pdf", f".{page_number + 1}.pdf")
-            # Öffnet den Dateien-Path im Schreiben und binären Modus:
-            with open(output_file_path, 'wb') as output_file:
-                pdf_writer.write(output_file)  # Erstellt die Datei
-            page_files.append(output_file_path.replace("/gcs/", "gs://"))  # Fügt die Datei der Liste hinzu
-
-    return page_files  # Gibt die Liste mit den Datei-Paths der Seiten aus
-
 
 # Gibt an welche Interpreter und welche Packages benutzt werden
 @dsl.component(
     base_image='python:3.11',
     packages_to_install=['google-cloud-aiplatform', 'appengine-python-standard']
 )
-# Bearbeitet den PDF-File mithilfe des Document-AI Processors und speichert das ergebnis als txt-Datei:
-def parseText(pdf_file: str) -> str:
-    from vertexai.generative_models import GenerativeModel, Part
+# Fasst das PDF-Zusammen und speichert das Ergebnis in einer Text Datei:
+def summarizeText(pdf_file: str) -> str:
+    from vertexai.generative_models import GenerativeModel, Part # Package für Google AIs
 
-    # Initiiert das Text Generation Model:
-    model = GenerativeModel(model_name="gemini-1.5-pro-preview-0514")
+    
+    model = GenerativeModel(model_name="gemini-1.5-pro-preview-0514") # Initiiert Gemini1.5
 
-
+    # Die Prompt die bei Google Gemini ausgeführt wird:
     prompt = """
-    Du bist ein proffesionel im zusammenfassen von Dokumenten.
+    Du bist Proffesionel im Zusammenfassen von Dokumenten.
     Bitte fasse das gegebene Dokument zusammen. Ignoriere die nicht zum Hauptthema passenden Informationen
     """
 
-    pdf_file_content = Part.from_uri(pdf_file, mime_type="application/pdf")
-    contents = [pdf_file_content, prompt]
+    
+    pdf_file_content = Part.from_uri(pdf_file, mime_type="application/pdf") # Bereitet das Abschicken von der PDF-Datei vor
+    contents = [pdf_file_content, prompt] # Verbindet die Prompt und die PDF-Datei
 
-    response = model.generate_content(contents)
+    response = model.generate_content(contents) # Schickt die Anfrage an die KI und speichert die Antwort
     
     with open(pdf_file.replace("gs://", "/gcs/").replace(".pdf", ".txt"), 'w') as file:
         file.write(response.text)  # Erstellt die Datei als txt miz dem Ergebnis der Anfrage
@@ -161,13 +125,13 @@ def leibnizWebsite(gcs_directory: str):
             items=get_matching_files_task.output,
             parallelism=10
     ) as pdf_file:
-        # Bearbeitet die Seite mit Dokument AI
-        parse_text_task = parseText(
+        # Fasst die PDF-Seite zusammen
+        summarize_text_task = summarizeText(
             pdf_file=pdf_file
         )
         # Erstellt die Embeddings zur Seite
         generate_embedding_task = generateEmbedding(
-            txt_file=parse_text_task.output
+            txt_file=summarize_text_task.output
         )
         # Speichert die Embeddings
         write_embeddings_task = write_embeddings(
@@ -176,4 +140,4 @@ def leibnizWebsite(gcs_directory: str):
 
 
 # Compiled die Pipline in ein json Dokument:
-compiler.Compiler().compile(leibnizWebsite, 'leibnizpipelinesummary.json')  # Compiles
+compiler.Compiler().compile(leibnizWebsite, 'leibnizpipelinesummary.json') 
