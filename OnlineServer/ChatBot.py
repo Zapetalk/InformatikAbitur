@@ -27,6 +27,9 @@ model = TextEmbeddingModel.from_pretrained("text-multilingual-embedding-002")
 # Initiiert die übergebene Prompt
 PROMPT = sys.argv[1]
 
+# Speichert die Embeddings der Prompt
+embeddings = model.get_embeddings([PROMPT])
+
 # Verbindung mit Elasticsearch
 es = Elasticsearch(
     hosts=["http://10.156.15.221:9200"],
@@ -35,9 +38,6 @@ es = Elasticsearch(
 
 # Name unter dem die Embeddings gespeichert wurden
 index_name = 'leibniz_website_summary'
-
-# Speichert die Embeddings der Prompt
-embeddings = model.get_embeddings([PROMPT])
 
 # Bereitet die Anfrage an Elasticsearch
 script_query = {
