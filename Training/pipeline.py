@@ -6,7 +6,7 @@ from typing import Dict, List
 # Gibt an welche Interpreter und welche Packages benutzt werden
 @dsl.component(
     base_image='python:3.11',
-    packages_to_install=['appengine-python-standard']
+    packages_to_install=['appengine-python-standard', 'kfp']
 )
 # Gibt alle Dateien die Gefunden werden sollen aus
 def getMatchingFiles(directory: str) -> List[str]:
@@ -14,7 +14,7 @@ def getMatchingFiles(directory: str) -> List[str]:
 
     matching_files = []  # Liste zum Speichern der Datei-Paths
     # Suche nach allen Dateien im Google Cloud Storage(GCS) Bucket-Path für os.walk muss der Path umgeschrieben werden:
-    for root, files in os.walk(directory.replace("gs://", "/gcs/")):
+    for root,dirs, files in os.walk(directory.replace("gs://", "/gcs/")):
         for file in files:  # Ruft jede Datei einzeln auf
             # Fügt den Datei-Path der Liste hinzu und verändert die Schreibweise wieder zu gs://
             matching_files.append(os.path.join(root, file).replace("/gcs/", "gs://"))
@@ -63,38 +63,28 @@ def splitIntoPages(pdf_file: str) -> List[str]:
 # Gibt an welche Interpreter und welche Packages benutzt werden
 @dsl.component(
     base_image='python:3.11',
-    packages_to_install=['google-cloud-documentai', 'appengine-python-standard']
+    packages_to_install=['google-cloud-aiplatform', 'appengine-python-standard']
 )
 # Bearbeitet den PDF-File mithilfe des Document-AI Processors und speichert das ergebnis als txt-Datei:
 def parseText(pdf_file: str) -> str:
-    from google.cloud import documentai  # Package zum Arbeiten mit DocumentAI
-    from google.api_core.client_options import ClientOptions  # Package zum Verbinden mit Google Cloud
+    from vertexai.generative_models import GenerativeModel, Part
 
-    # Project Variablen:
-    project_id = 'joonaltmanninformatikabitur'
-    location = 'eu'
-    mime_type = 'application/pdf'
-    processor_id = '81d1ffce46ea3308'
+    # Initiiert das Text Generation Model:
+    model = GenerativeModel(model_name="gemini-1.5-pro-preview-0514")
 
-    # Verbindung mit dem Document-Ai Processor in der Google Cloud
-    opts = ClientOptions(api_endpoint=f"{location}-documentai.googleapis.com")
-    client = documentai.DocumentProcessorServiceClient(client_options=opts)
-    name = client.processor_path(project_id, location, processor_id)
 
-    # Öffnet die Datei im Lese und binären Modus:
-    with open(pdf_file.replace("gs://", "/gcs/"), "rb") as read_file:
-        file_content = read_file.read()  # Liest und speichert den Inhalt des PDF-Dokuments
-    # Fügt die Datei und die Datei-Art zusammen:
-    raw_document = documentai.RawDocument(content=file_content, mime_type=mime_type)
-    # Fügt die Anfrage an den Processor zusammen:
-    request = documentai.ProcessRequest(name=name, raw_document=raw_document)
-    # Führt die Anfrage aus:
-    result = client.process_document(request=request)
-    # Speichert das Ergebnis:
-    document = result.document
-    # Öffnet den Dateien-Path im SchreibenModus:
+    prompt = """
+    Du bist ein proffesionel im zusammenfassen von Dokumenten.
+    Bitte fasse das gegebene Dokument zusammen. Ignoriere die nicht zum Hauptthema passenden Informationen
+    """
+
+    pdf_file_content = Part.from_uri(pdf_file, mime_type="application/pdf")
+    contents = [pdf_file_content, prompt]
+
+    response = model.generate_content(contents)
+    
     with open(pdf_file.replace("gs://", "/gcs/").replace(".pdf", ".txt"), 'w') as file:
-        file.write(document.text)  # Erstellt die Datei als txt miz dem Ergebnis der Anfrage
+        file.write(response.text)  # Erstellt die Datei als txt miz dem Ergebnis der Anfrage
     return pdf_file.replace(".pdf", ".txt")  # Gibt die Textvariante der Datei aus
 
 
@@ -107,7 +97,7 @@ def parseText(pdf_file: str) -> str:
 def generateEmbedding(txt_file: str) -> Dict:
     from vertexai.language_models import TextEmbeddingModel  # Package für Google AIs
 
-    model = TextEmbeddingModel.from_pretrained("textembedding-gecko@003")  # Ruft das Model auf
+    model = TextEmbeddingModel.from_pretrained("text-multilingual-embedding-002")  # Ruft das Model auf
 
     # Öffnet die Datei im lese Modus:
     with open(txt_file.replace("gs://", "/gcs/"), 'r') as f:
@@ -130,11 +120,11 @@ def write_embeddings(embedding: Dict):
 
     # Connection Details zur Elastic
     es = Elasticsearch(
-        hosts=["http://10.156.0.9:9200"],  # Lokale IP-Adresse im Netzwerk
-        basic_auth=("elastic", "1laBg6rS87g4mBBh61l96Ax6")  # Voreingestellter default user + password
+        hosts=["http://10.156.15.221:9200"],  # Lokale IP-Adresse im Netzwerk
+        basic_auth=("elastic", "4n7v79WY49CkZmD16AWB7zr7")  # Voreingestellter default user + password
     )
 
-    index_name = "leibniz_website"  # Name unter dem die Embeddings gespeichert werden
+    index_name = "leibniz_website_summary"  # Name unter dem die Embeddings gespeichert werden
 
     # Gibt an was für ein Typ an embedding hier ausgegeben wird:
     mapping = {
@@ -169,31 +159,21 @@ def leibnizWebsite(gcs_directory: str):
     with dsl.ParallelFor(
             name="pdf-parsing",
             items=get_matching_files_task.output,
-            parallelism=3
+            parallelism=10
     ) as pdf_file:
-        # Teilt das Dokument in einzelne Seiten
-        split_pdf_into_pages_task = splitIntoPages(
+        # Bearbeitet die Seite mit Dokument AI
+        parse_text_task = parseText(
             pdf_file=pdf_file
         )
-        # Iteriert durch alle PDF-Seiten
-        with dsl.ParallelFor(
-                name="pdf-page-parsing",
-                items=split_pdf_into_pages_task.output,
-                parallelism=3
-        ) as pdf_page_file:
-            # Bearbeitet die Seite mit Dokument AI
-            parse_text_task = parseText(
-                pdf_file=pdf_page_file
-            )
-            # Erstellt die Embeddings zur Seite
-            generate_embedding_task = generateEmbedding(
-                txt_file=parse_text_task.output
-            )
-            # Speichert die Embeddings
-            write_embeddings_task = write_embeddings(
-                embedding=generate_embedding_task.output
-            )
+        # Erstellt die Embeddings zur Seite
+        generate_embedding_task = generateEmbedding(
+            txt_file=parse_text_task.output
+        )
+        # Speichert die Embeddings
+        write_embeddings_task = write_embeddings(
+            embedding=generate_embedding_task.output
+        )
 
 
 # Compiled die Pipline in ein json Dokument:
-compiler.Compiler().compile(leibnizWebsite, 'leibnizpipeline2.json')  # Compiles
+compiler.Compiler().compile(leibnizWebsite, 'leibnizpipelinesummary.json')  # Compiles
