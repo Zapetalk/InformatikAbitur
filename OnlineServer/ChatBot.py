@@ -73,7 +73,7 @@ parameters = {
 # Baut die Prompt und den Context mittels Prompt Engeneering zusammen
 prompt = """
 Beantworte die folgende Frage, sollte sie zu den Themenbereich einer Schule passen:""" + PROMPT + """
-Falls die Frage nicht passt antworte mit: "Diese Frage befindet sich außerhalb meines Themenbereiches"
+Falls die Frage nicht passt antworte mit: "Ich kann diese Frage leider nicht beantworten"
 
 Falls es Hilft benutze diese Information zum beantworten der Frage:""" + text_content
 
