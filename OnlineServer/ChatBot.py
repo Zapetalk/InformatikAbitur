@@ -2,8 +2,9 @@
 from elasticsearch import Elasticsearch  # Package zum Speichern und Suchen von Embeddings
 from google.cloud import storage  # Importiert das Arbeiten mit der Google Cloud Storage
 from google.cloud import aiplatform  # Importiert das Arbeiten mit der Google AI
-from vertexai.language_models._language_models import TextEmbeddingModel, TextGenerationModel  # Importiert das
+from vertexai.language_models._language_models import TextEmbeddingModel  # Importiert das
 # Arbeiten mit den Modellen
+from vertexai.generative_models import GenerativeModel, ChatSession
 import os  # Package um mit Ordnern und Dateien zu arbeiten
 import sys  # Package um mit dem System zu integrieren
 
@@ -21,13 +22,10 @@ aiplatform.init(project='leibnizchat', location='europe-west3')
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'leibnizchat.json'
 
 # Initiiert das Text Embedding Model
-model = TextEmbeddingModel.from_pretrained("textembedding-gecko@003")
+model = TextEmbeddingModel.from_pretrained("text-multilingual-embedding-002")
 
 # Initiiert die übergebene Prompt
 PROMPT = sys.argv[1]
-
-# Speichert die Embeddings der Prompt
-embeddings = model.get_embeddings([PROMPT])
 
 # Verbindung mit Elasticsearch
 es = Elasticsearch(
@@ -36,7 +34,10 @@ es = Elasticsearch(
 )
 
 # Name unter dem die Embeddings gespeichert wurden
-index_name = 'leibniz_website'
+index_name = 'leibniz_website_summary'
+
+# Speichert die Embeddings der Prompt
+embeddings = model.get_embeddings([PROMPT])
 
 # Bereitet die Anfrage an Elasticsearch
 script_query = {
@@ -69,7 +70,7 @@ parameters = {
     "top_k": 40  # Wie richtig sollen die KI einzelnen Token auswählen
 }
 
-# Baut die Prompt und den Context mittels Prompt design zusammen
+# Baut die Prompt und den Context mittels Prompt Engeneering zusammen
 prompt = """
 Beantworte die folgende Frage, sollte sie zu den Themenbereich einer Schule passen:""" + PROMPT + """
 Falls die Frage nicht passt antworte mit: "Diese Frage befindet sich außerhalb meines Themenbereiches"
@@ -77,12 +78,25 @@ Falls die Frage nicht passt antworte mit: "Diese Frage befindet sich außerhalb 
 Falls es Hilft benutze diese Information zum beantworten der Frage:""" + text_content
 
 # Initiiert das Text Generation Model:
-model = TextGenerationModel.from_pretrained("text-bison@002")
+model = GenerativeModel(model_name="gemini-1.5-pro-preview-0514", generation_config=parameters)
+
+chat = model.start_chat() # Startet einen neuen Chat
+
+# Funktion zum Generieren einer Antwort:
+def getResponse(chat: ChatSession, prompt : str) -> str: 
+    text_response = [] # List zum Speichern der einzelnen Antwort-Chunks
+    responses = chat.send_message(prompt, stream=True) # Sended die Prompt
+    for chunk in responses: # Iterirt durch die einzelnen Antwort-Chunks
+        text_response.append(chunk.text) # Fügt den Antwort-Chunk der Liste hinzu
+    return "".join(text_response) # Fügt die Liste zu einem String zusammen und defieniert ih als Output
 
 # Generiert die Ausgabe:
-response = model.predict(prompt, **parameters)
+response = getResponse(chat,prompt) 
 
 # Gibt die Aussage aus:
+print(response)
+
+# Aussgabe Für Debugging (Auskommentiert):
 #print(f"Prompt: {prompt}\n\n")
 #print(f"Response from Model: {response.text}")
-print(response.text)
+
