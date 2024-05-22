@@ -30,7 +30,8 @@
         xhr.open("POST", "process.php", true); // Defieniert die Datei und Methode der Request
         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"); // Defieniert den Header
         xhr.send("prompt=" + prompt); // Fügt die Frage der Request zu und senden die Request ab
-        document.getElementById("answer").innerHTML = "<img src=\"loading.gif\" alt=\"Laden\" width=\"50px\" height=\"50px\">"; // Stellt den Ladekreis an
+        // Stellt den Ladekreis an:
+        document.getElementById("answer").innerHTML = "<img src=\"loading.gif\" alt=\"Laden\" width=\"50px\" height=\"50px\">"; 
 
         // Funktion die beim Empfangen von Daten ausgeführt wird:
         xhr.onreadystatechange = function () { 
