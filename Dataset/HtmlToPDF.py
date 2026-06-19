@@ -1,8 +1,8 @@
 import os  # Package um mit Ordnern und Dateien zu arbeiten
 from pyhtml2pdf import converter  # Package
 
-FOLDER_HTML = 'C:\\Users\\joon\\PycharmProjects\\InformatikAbitur\\FinalData\\Html'  # Ordner mit den HTML Dateien
-FOLDER_PDF = 'C:\\Users\\joon\\PycharmProjects\\InformatikAbitur\\FinalData\\Pdf'  # Ordner in
+FOLDER_HTML = 'C:\\Users\\ava\\PycharmProjects\\InformatikAbitur\\FinalData\\Html'  # Ordner mit den HTML Dateien
+FOLDER_PDF = 'C:\\Users\\ava\\PycharmProjects\\InformatikAbitur\\FinalData\\Pdf'  # Ordner in
 
 
 # den die neuen PDFs kopiert werden sollen
