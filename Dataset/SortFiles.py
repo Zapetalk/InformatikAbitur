@@ -1,10 +1,10 @@
 import os  # Package um mit Ordnern und Dateien zu arbeiten
 import shutil  # Package um Dateien zu koopieren
 
-FOLDER_WEBSITE = 'C:\\Users\\joon\\PycharmProjects\\InformatikAbitur\\LeibnizWebsite090524'  # Ordner mit den Dateien der Website
-FOLDER_HTML = 'C:\\Users\\joon\\PycharmProjects\\InformatikAbitur\\FinalData\\Html'  # Ordner in den die HTML
+FOLDER_WEBSITE = 'C:\\Users\\ava\\PycharmProjects\\InformatikAbitur\\LeibnizWebsite090524'  # Ordner mit den Dateien der Website
+FOLDER_HTML = 'C:\\Users\\ava\\PycharmProjects\\InformatikAbitur\\FinalData\\Html'  # Ordner in den die HTML
 # Dateien kopiert werden sollen
-FOLDER_PDF = 'C:\\Users\\joon\\PycharmProjects\\InformatikAbitur\\FinalData\\Pdf'  # Ordner in dem die PDF-Dateien
+FOLDER_PDF = 'C:\\Users\\ava\\PycharmProjects\\InformatikAbitur\\FinalData\\Pdf'  # Ordner in dem die PDF-Dateien
 # kopiert werden sollen
 
 files = []  # Liste zum Speichern der Datei-Path der Dateien von der Leibniz Website
